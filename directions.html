@@ -1,0 +1,66 @@
+<!--Directions-->
+<!Doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="keywords" content="ice cream, coopersburg, grains, pennsylvania, lehigh valley">
+<meta name="description" content="Good Earth is an ice cream and grains store in Coopersburg, PA.">
+<meta name="author" content="Good Earth Grains and Creamery">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Good Earth Grains and Creamery</title>
+  <script src="http://maps.googleapis.com/maps/api/js">
+  </script>
+  <script>
+    function initialize() {
+      var mapProp = {
+        center:new google.maps.LatLng(40.510624, -75.391128),
+        zoom:15,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+      };
+      var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+      var marker=new google.maps.Marker({
+        position:new google.maps.LatLng(40.510624, -75.391128),
+        map:map,
+        title:'Good Earth'
+        });
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+
+  </script>
+</head>
+
+<body>
+  <div class="container">
+  <div class="nav">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+              <a href="index.html"><img src="images/logo.png" alt="Good Earth Logo"></a>
+        <li><a href="about.html">About</a></li>
+        <li><a href="directions.html">Directions</a></li>
+      </ul>
+    </nav>
+  </div> <!--nav-->
+  <div class="cone">
+    <img src="images/ice cream.png" alt="Ice Cream Cone">
+  </div> <!--cone-->
+    <div class="content">
+      <div id="googleMap" style="width:500px;height:380px;"></div>
+    </div><!--content-->
+  </div><!--container-->
+  <div class="footer">
+    <div class="container">
+    <br>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+          <a href="index.html"><img src="images/logo.png" alt="Good Earth Logo"></a>
+        <li><a href="about.html">About</a></li>
+        <li><a href="directions.html">Directions</a></li>
+    </ul>
+    <p>23 South Main Street Coopersburg, PA 18036 (484)863-0003</p>
+  </div><!--container-->
+  </div> <!--footer-->
+</body>

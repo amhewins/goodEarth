@@ -1,0 +1,95 @@
+@font-face {
+  font-family: solidjeans;
+  src: url(solidjeans.ttf);
+}
+.nav img {
+  width: 30%;
+}
+img {
+  width: 12%;
+}
+.nav img {
+  padding-top: 10px;
+}
+nav {
+  font-family: solidjeans;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+body {
+  font-family: Helvetica, sans-serif;
+  background: #8fe8bb; /* Old browsers */
+  background: -moz-linear-gradient(top,  #8fe8bb 0%, #009790 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #8fe8bb 0%,#009790 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #8fe8bb 0%,#009790 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fe8bb', endColorstr='#009790',GradientType=0 ); /* IE6-9 */
+  margin: 0px;
+  padding: 0px;
+}
+ul {
+  margin: 0px;
+}
+.nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  float: none;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 0px;
+  padding-bottom: 15px;
+  color: white;
+}
+.nav ul li a:link {
+  text-decoration: none;
+  color: white;
+}
+ul a:visited {
+  color: white;
+}
+ul a:hover {
+  color: black;
+}
+ul a:active {
+  color: black;
+}
+.cone {
+  padding-left: 2%;
+  posi tion: fixed;
+}
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+.footer {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffa187+0,ffb8a5+100&0.48+0,1+100 */
+  background: -moz-linear-gradient(top,  rgba(255,161,135,0.48) 0%, rgba(255,184,165,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(255,161,135,0.48) 0%,rgba(255,184,165,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(255,161,135,0.48) 0%,rgba(255,184,165,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7affa187', endColorstr='#ffb8a5',GradientType=0 ); /* IE6-9 */
+  height: 100%;
+}
+.footer ul li {
+  list-style-type: none;
+  display: inline-block;
+  float: none;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 0px;
+  padding-bottom: 15px;
+  color: white;
+}
+.footer ul li a:link {
+  text-decoration: none;
+  color: white;
+}
+.footer p {
+  font-size: 40%;
+  color: white;
+}
